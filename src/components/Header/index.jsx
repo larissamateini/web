@@ -90,7 +90,7 @@ export function Header({ isAdmin, isDisabled, isMenuOpen, setIsMenuOpen, setSear
           {
             desktopScreen &&
             <Logout onClick={handleSignOut}>
-              <FiLogOut size={"rem"} />
+              <FiLogOut size={"3rem"} />
             </Logout>
           }
         </Fragment>

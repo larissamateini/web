@@ -13,21 +13,13 @@ export function Button({ title, loading = false, isCustomer, ...rest }) {
     >
 
       {
-        isCustomer &&
-        <TbReceipt size={"3rem"} />
+        (isCustomer && desktopScreen) &&
+        <TbReceipt size={"2rem"} />
       }
       
       {loading ? "Carregando..." : title}
 
-      {
-        isCustomer && 
-        <span>
-          {
-          desktopScreen ? `(${rest.orderCount})` 
-          : rest.orderCount
-          }
-        </span>
-      }
+      
     </Container>
   );
 }

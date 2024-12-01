@@ -10,9 +10,9 @@ export const Container = styled.header`
   
   background-color: ${({ theme }) => theme.COLORS.DARK_600};
   
+  // button:last-child
   button:last-child {
-    padding: 0;
-    background: none;
+    display: none;
   }
 
   @media (min-width: 600px) {
@@ -38,6 +38,11 @@ export const Container = styled.header`
     .new, .orders {
       max-width: 21rem;
     }
+
+    button:last-child {
+    display: block;
+    background: none;
+  }
   }
 `;
 
