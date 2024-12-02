@@ -1,74 +1,102 @@
-<h1 align="center" style="text-align: center;">
-  Food Explorer
-</h1>
-<br/>
+# 🍴 **Food Explorer**
+
 <p align="center">
-  <a href="#project">Projeto </a>
-  <a href="#pages">Páginas </a>
-  <a href="#features">Funcionalidades </a>
-  <a href="#technologies">Tecnologias </a>
-  <a href="#usage">Executar </a>
-  <a href="#users">Users </a>
+  <a href="#project">📄 Projeto</a> •
+  <a href="#pages">📑 Páginas</a> •
+  <a href="#features">⚙️ Funcionalidades</a> •
+  <a href="#technologies">🛠️ Tecnologias</a> •
+  <a href="#usage">🚀 Executar</a> •
+  <a href="#users">👥 Users</a>
 </p>
 
-<h2 id="project">Projeto</h2>
-<p>O projeto Food Explorer é uma aplicação de cardápio digital que trata-se do desafio final do curso Explorer da Rocketseat.</p>
+---
 
-<p>Neste repositório está disponível o front-end do projeto.</p>
+## 📄 Projeto
 
-<p> Acesso a aplicação aqui:
-  <a href="https://food-explorer-web00.netlify.app/">Food Explorer</a>
-</p>
+O **Food Explorer** é uma aplicação de cardápio digital, desenvolvida como o desafio final do curso **Explorer** da Rocketseat.
 
-<h2 id="pages">Páginas</h2>
-1. SignIn
-2. SignUp
-3. Homepage
-4. Novo prato
-5. Editar prato
-6. Exposição do prato
-7. Pratos favoritados
+Neste repositório, está disponível o **front-end** do projeto.
 
-<h2 id="features">Funcionalidades</h2>
-- Login (iniciar sessão)
-- Cadastro de usuário
-- Cadastrar/criar pratos como administrador
-- Mostrar detalhes dos pratos cadastrados
-- Filtrar pratos na barra de pesquisa
-- Favoritar pratos como usuário
-- Remover prato dos favoritos
-- Mostrar pratos favoritos
-- Editar prato como administrador
-- Excluir prato como administrador
-- Logout (encerrar sessão)
+🔗 **Acesse a aplicação aqui**:  
+[Food Explorer](https://food-explorer-web00.netlify.app/)
 
-<h2 id="technologies">Tecnologias</h2>
-1. ReactJS
-2. ReactDOM
-3. Axios
-4. ViteJS
-5. Styled Components
-6. React Router Dom
-7. Swiper
+---
 
-<h2 id="usage">Para executar localmente</h2>
-1. O ``Node.js`` e o ``npm`` devem estar instalados.
+## 📑 Páginas
 
-2. Dependências:
-```
-$ npm install
-```
+1. **SignIn**: Tela de login
+2. **SignUp**: Tela de cadastro
+3. **Homepage**: Página inicial com os pratos disponíveis
+4. **Novo prato**: Formulário para adicionar novos pratos
+5. **Editar prato**: Formulário para editar pratos existentes
+6. **Exposição do prato**: Detalhes de um prato específico
+7. **Pratos favoritados**: Página para exibir pratos marcados como favoritos
 
-3. Para iniciar o servidor:
-```
-$ npm run dev
-```
+---
 
-<h2 id="users">Users para teste</h2>
-1. Admin:
-E-mail: admin@test.com
-Senha: admin123
+## ⚙️ Funcionalidades
 
-2. Usuário:
-E-mail: user@test.com
-Senha: user123
+- 🔑 **Login**: Iniciar sessão
+- 📝 **Cadastro de usuário**: Criar uma conta de usuário
+- 🍽️ **Cadastrar pratos**: Como administrador, cadastrar e criar novos pratos
+- 🔍 **Filtrar pratos**: Filtrar pratos através da barra de pesquisa
+- 💖 **Favoritar pratos**: Marcar pratos como favoritos
+- ❌ **Remover do favoritos**: Excluir pratos da lista de favoritos
+- 🛠️ **Editar pratos**: Como administrador, editar pratos já cadastrados
+- 🗑️ **Excluir pratos**: Como administrador, excluir pratos
+- 🚪 **Logout**: Encerrar sessão do usuário
+
+---
+
+## 🛠️ Tecnologias
+
+Este projeto foi desenvolvido com as seguintes tecnologias:
+
+- **ReactJS**: Biblioteca para criação de interfaces
+- **ReactDOM**: Ferramenta para integrar o React com o DOM
+- **Axios**: Cliente HTTP para interagir com APIs
+- **ViteJS**: Ferramenta de build e bundler super rápida
+- **Styled Components**: Biblioteca para estilos em componentes React
+- **React Router Dom**: Navegação entre páginas da aplicação
+- **Swiper**: Biblioteca para criar carrosséis interativos
+
+---
+
+## 🚀 Para executar localmente
+
+1. **Instale o Node.js** e o **npm** na sua máquina, se ainda não estiverem instalados.
+
+2. **Clone este repositório**:
+    ```bash
+    git clone https://github.com/seu-usuario/food-explorer.git
+    ```
+
+3. **Instale as dependências**:
+    ```bash
+    npm install
+    ```
+
+4. **Inicie o servidor**:
+    ```bash
+    npm run dev
+    ```
+
+Agora, você pode acessar a aplicação em `http://localhost:5173`.
+
+---
+
+## 👥 Users para teste
+
+1. **Admin**:  
+   - **E-mail**: admin@test.com  
+   - **Senha**: admin123  
+
+2. **Usuário**:  
+   - **E-mail**: user@test.com  
+   - **Senha**: user123  
+
+---
+
+### 📜 Licença
+
+Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais informações.
