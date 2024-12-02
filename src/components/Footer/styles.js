@@ -51,7 +51,7 @@ export const LogoFooter = styled.div`
 
   @media (min-width: 1024px) {
     > img {
-      width: 18rem;
+      width: 16rem;
     }
   }
 `;
@@ -75,7 +75,6 @@ export const FooterC = styled.span`
   
   
   @media (min-width: 1024px) {
-    font-size: 1.8rem;
     line-height: 160%;
   }
 `;

@@ -3,12 +3,12 @@
 </h1>
 <br/>
 <p align="center">
-  <a href="#project">Projeto</a>&nbsp;|&nbsp;
-  <a href="#pages">Páginas</a>&nbsp;|&nbsp;
-  <a href="#features">Funcionalidades</a>&nbsp;|&nbsp;
-  <a href="#technologies">Tecnologias</a>&nbsp;|&nbsp;
-  <a href="#usage">Executar</a>&nbsp;|&nbsp;
-  <a href="#users">Users</a>
+  <a href="#project">Projeto </a>
+  <a href="#pages">Páginas </a>
+  <a href="#features">Funcionalidades </a>
+  <a href="#technologies">Tecnologias </a>
+  <a href="#usage">Executar </a>
+  <a href="#users">Users </a>
 </p>
 
 <h2 id="project">Projeto</h2>
